@@ -9,7 +9,7 @@ function About() {
   return (
 
       <DivContainerAbout>
-        <Lincoln src={MyFace}></Lincoln>
+        <Lincoln src={MyFace} alt="Lincoln Image"></Lincoln>
 
         <DivContainAbout>
           <h1>Meu nome é Lincoln</h1>
@@ -23,9 +23,9 @@ function About() {
             ágeis, programação orientada a objetos, clean code, arquitetura de
             software e testes unitários.
             <Social>
-              <a href="https://www.linkedin.com/in/lincoln-dev/" target="_blank"><img src={Linkedin}></img></a>
-              <a href="https://github.com/LincolnRp" target="_blank"><img src={Github}></img></a>
-              <a href="https://www.instagram.com/lincoln.sz/" target="_blank"><img src={Instagram}></img></a>
+              <a href="https://www.linkedin.com/in/lincoln-dev/" target="_blank"><img src={Linkedin} alt="Linkedin Logo"></img></a>
+              <a href="https://github.com/LincolnRp" target="_blank"><img src={Github} alt="Github Logo"></img></a>
+              <a href="https://www.instagram.com/lincoln.sz/" target="_blank"><img src={Instagram} alt="Instagram Logo"></img></a>
             </Social>
           </p>
         </DivContainAbout>

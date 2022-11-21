@@ -1,5 +1,5 @@
 import React from 'react'
-import {DivContainerHome} from './style'
+import {DivContainerHome, DivContentHome} from './style'
 import About from './../../components/About/About'
 import Education from './../../components/Education/Education'
 import Certification from './../../components/Certification/Certification'
@@ -11,11 +11,12 @@ function Home() {
     <DivContainerHome>
       <About/>
       Meu nome é Lincoln
-      <div>
+
+      <DivContentHome>
         <Education/>
         <Certification/>
 
-      </div>
+      </DivContentHome>
       </DivContainerHome>
 
   )
