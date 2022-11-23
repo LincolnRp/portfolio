@@ -10,7 +10,6 @@ h1{
     
 }
 
-
 `
 
 export const DivContent = styled.div`
