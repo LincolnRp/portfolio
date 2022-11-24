@@ -1,58 +1,49 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const DivContainerAbout = styled.div`
-margin-left: 10%;
-margin-top: 2%;
-display: flex;
-height: 280px;
-width: 80vw;
-
-`
+  margin-left: 10%;
+  margin-top: 2%;
+  display: flex;
+  height: 280px;
+  width: 80vw;
+`;
 
 export const DivContainAbout = styled.div`
-height: 280px;
-margin-left: 2%;
+  height: 280px;
+  margin-left: 2%;
 
-h1{
-color: white;
-margin-top: -1%;
-height: 40px;
-}
+  h1 {
+    color: white;
+    margin-top: -1%;
+    height: 40px;
+  }
 
-h2{
-height: 40px;
-color: white;
-margin-top: -2%;
+  h2 {
+    height: 40px;
+    color: white;
+    margin-top: -2%;
+  }
 
-}
-
-p{
-height: 190px;
-text-align: justify;
-color: #BCBCBC;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-}
-
-`
+  p {
+    height: 190px;
+    text-align: justify;
+    color: #bcbcbc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+`;
 export const Social = styled.div`
-
-
-img{
+  img {
     margin-top: 2%;
     width: 24px;
     margin-right: 1%;
-    &:hover{
-        cursor: pointer;
+    &:hover {
+      cursor: pointer;
     }
-
-}
-
-`
+  }
+`;
 
 export const Lincoln = styled.img`
-
-border-radius: 4px;
-
-`
+  border-radius: 4px;
+`;
